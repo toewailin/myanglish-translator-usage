@@ -1,0 +1,167 @@
+@font-face {
+    font-family: "Noto Sans english";
+    src: local("Noto Sans english"),
+        url("fonts/english-One-20051130.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Noto Sans Myanmar";
+    src: local("Noto Sans Myanmar"),
+        url("fonts/Pyidaungsu-2.5.3_Regular.ttf") format('truetype');
+}
+
+header {
+    text-align: center;
+}
+
+header h2 {
+    display: none;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.28em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.styled-text {
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+/* Define styles for each letter */
+.styled-text span.one {
+    color: #4285f4;
+}
+
+.styled-text span.two {
+    color: #0f9d58;
+}
+
+.styled-text span.three {
+    color: #f4b400;
+}
+
+.styled-text span.four {
+    color: #db4437;
+}
+
+.styled-text span.five {
+    color: #4285f4;
+}
+
+.styled-text span.six {
+    color: #0f9d58;
+}
+
+.styled-text span.seven {
+    color: #ff6d00;
+}
+
+body,
+section,
+#container {
+    margin: 5px 0px;
+    padding: 0px;
+    background-color: #f6f8fa;
+}
+
+.clear {
+    background-color: #FF573366 !important;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+textarea {
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 300px;
+    padding: 10px;
+    line-height: 1.8em;
+    font-size: 1em;
+    border: 1px solid #5799DA;
+    text-align: left;
+    background-color: #f9f9f9;
+}
+
+#textContainer {
+    text-align: center;
+}
+
+#english {
+    display: inline-block;
+    width: 48%;
+    padding-right: 10px;
+    font-family: 'Noto Sans english', sans-serif;
+}
+
+#myanmar {
+    display: inline-block;
+    width: 48%;
+    padding-left: 10px;
+    font-family: 'Noto Sans Myanmar', sans-serif;
+}
+
+@media(max-width:701px) {
+
+    #textContainer {
+        padding: 5px;
+    }
+
+    #myanmar {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #english {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    textarea {
+        min-height: 200px;
+        font-size: .9em;
+        padding: 10px !important;
+    }
+}
+
+.english-button-style {
+    margin: 8 32px;
+    padding: 15;
+    background-color: #af8d8d;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-size: 16;
+}
+
+.clear-button-style {
+    margin: 8 32px;
+    padding: 15;
+    background-color: #e4070754;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-size: 16;
+}
+
+.myanmar-button-style {
+    margin: 8 32px;
+    padding: 15;
+    background-color: #b5cdde;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-size: 16;
+}
